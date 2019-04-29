@@ -1,0 +1,5 @@
+<form action="" method="post">
+  {% csrf_token %}
+  {{ form.as_ul }}
+  <button type="submit" name="subform">save</button>
+</form>

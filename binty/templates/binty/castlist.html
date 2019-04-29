@@ -1,0 +1,26 @@
+{% extends 'binty/base.html' %}
+{% load static %}
+
+{% block content %}
+<div id="portrait">
+  {{ actor.name }}
+  {% if actor.portrait %}
+  <img src="{{ actor.portrait.url }}">
+  {% else %}
+  <img src="{% static 'binty/img/noimage.png' %}">
+  {% endif %}
+  {{ actor.histroy }}
+</div>
+
+{% for content in contents %}
+<div class="card castlist-card">
+  <p class="card-text">{{ content.title }}</p>
+  {% if content.thumbnail %}
+  <img class="content_line" src="{{ content.thumbnail.url }}">
+  {% else %}
+  <img class="content_line" src="{% static 'binty/img/noimage.png' %}">
+  {% endif %}
+</div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'binty/base.html' %}
+{% load static %}
+
+{% block content %}
+<form action="" method="post" enctype="multipart/form-data" name="content_form" class="content_form">
+  {% csrf_token %}
+  {{ form.as_ul }}
+  <button type="submit" name="content_form">save</button>
+  <button class="subform" type="button" name="sub-window" value="director">監督</button>
+  <button class="subform" type="button" name="sub-window" value="genre">ジャンル</button>
+  <button class="subform" type="button" name="sub-window" value="cast">キャスト</button>
+</form>
+
+<!--画像をアップロードするときに必要なおまじない-->
+{{ form.media }}
+
+{% endblock %}

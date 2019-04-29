@@ -1,0 +1,29 @@
+{% extends 'binty/base.html' %}
+{% load static %}
+{% block content %}
+<div class="first-test">
+  <div class="test-menu">
+    <ul>
+      <li>
+        <div class='test1'>Photos
+          <div class='test2'>Music
+            <div class='test3'>Videos</div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class='test4'>Photos</div>
+      </li>
+      <li>
+        <div class='test5'>Music</div>
+      </li>
+      <li>
+        <div class='test6'>Videos</div>
+      </li>
+    </ul>
+  </div>
+  <button class='test-button' type="button" value="test"><img class='test-button'
+                                                              src="{% static 'binty/img/icon_search.jpg' %}"></button>
+  <div class="test-box"></div>
+</div>
+{% endblock %}

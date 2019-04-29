@@ -1,0 +1,15 @@
+{% extends 'binty/base.html' %}
+
+{% block content %}
+<form action="" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_ul }}
+  <button type="submit">Send</button>
+</form>
+<form action="" method="post">
+  {% csrf_token %}
+  <p><label>start: </label><input class="db_import" type="text" name="start"></p>
+  <p><label>end: </label><input class="db_import" type="text" name="end"></p>
+  <button type="submit" name="db_import">Import</button>
+</form>
+{% endblock %}

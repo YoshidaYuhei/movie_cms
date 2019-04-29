@@ -1,0 +1,55 @@
+{% extends 'binty/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="model_list">
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+    <tr>
+      <th>id</th>
+      <th>Image</th>
+      <th>Title</th>
+      <th>Cast</th>
+      <th>Like</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for content in page_obj %}
+    <tr>
+      <th scope="row"> {{ content.id }}</th>
+      {% if content.thumbnail %}
+      <td><a href="{% url 'binty:detail' content.id %}"/><img class="thumbnail" src="{{ content.thumbnail.url }}"
+                                                              style="max_height:10px"/></td>
+      {% else %}
+      <td><a href="{% url 'binty:detail' content.id %}"/><img class="thumbnail"
+                                                              src="{% static 'binty/img/noimage.png' %}"></td>
+      {% endif %}
+      <td id="test">{{ content.title }}</td>
+      <td>{% for cast in content.cast.all|slice:":4" %}<a href="{% url 'binty:castlist' cast.id %}">{{ cast }}<br></a>{% endfor %}
+      </td>
+      <form method="post">
+        {% csrf_token %}
+        <td>
+          <button type="submit" name="good" class="btn btn-success" value="{{ content.id }}">
+            イイね
+          </button>
+        </td>
+      </form>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <form name="genre_select" method="post" class="genre_select">
+    {% csrf_token %}
+    <div id="genre_list">
+      {% for genre in genre_list %}
+      <button class="genre_tag" value="{{ genre.id }}" name="genre_select">{{ genre.name }}</button>
+      {% endfor %}
+    </div>
+  </form>
+</div>
+
+{% include 'binty/paginate.html' %}
+
+{% endblock %}

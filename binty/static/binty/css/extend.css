@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  font-family: "Roboto", 　 "Lato", monospace;
+  font-size: 16px;
+  display: block; }
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: block;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  #navbar ul {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: block; }
+    #navbar ul .nav-item {
+      display: inline-block;
+      margin-left: 3%; }
+      #navbar ul .nav-item .nav_icon {
+        width: 30px;
+        height: 30px; }
+    #navbar ul .search-li {
+      height: 30px;
+      display: inline-block; }
+      #navbar ul .search-li .form-inline {
+        display: inline-block;
+        float: right; }
+        #navbar ul .search-li .form-inline .form-control {
+          margin: 10px 0 0 20px; }
+
+#container {
+  width: 100%;
+  margin-top: 60px; }
+  #container .model_list {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 60px; }
+    #container .model_list .table {
+      width: 70%;
+      display: inline-table; }
+    #container .model_list .genre_select {
+      width: 25%;
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: top; }
+      #container .model_list .genre_select .genre_tag {
+        margin: 2px;
+        padding: 0 1px 0 1px;
+        border: 1px solid;
+        transition: 0.8s; }
+        #container .model_list .genre_select .genre_tag:hover {
+          background: aqua; }
+  #container #paginate {
+    margin-left: 80px; }
+
+.content_form {
+  width: 40%;
+  margin: 0 auto; }
+  .content_form li {
+    margin: 3px;
+    list-style-type: none; }
+
+.first-test .test-menu ul li {
+  display: inline-block; }
+.first-test .test-menu .test1 {
+  display: inline-block; }
+.first-test .test-menu .test4 {
+  display: inline-block; }
+.first-test .test-menu .test5 {
+  display: block; }
+
+.regi-container .login-form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em; }
+  .regi-container .login-form .form-item input {
+    background: #fafafa;
+    border: none;
+    border-bottom: 2px solid #e9e9e9;
+    padding: 5px; }
+  .regi-container .login-form .form-item input:focus {
+    border-bottom: 2px solid #c0c0c0;
+    outline: none; }
+  .regi-container .login-form .submit-item input {
+    background: #f16272;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .regi-container .login-form .submit-item p a {
+    color: #8c8c8c;
+    text-decoration: none;
+    transition: border-color 0.3s; }
+  .regi-container .login-form .submit-item p a:hover {
+    border-bottom: 1px dotted #8c8c8c; }
+
+/*# sourceMappingURL=extend.css.map */

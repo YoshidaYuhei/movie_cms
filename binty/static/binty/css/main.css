@@ -1,0 +1,12 @@
+.thumbnail {
+    height: 100px;
+}
+
+.content_line {
+    width: 100px;
+}
+
+.castlist-card {
+    width: 150px;
+    display: inline-flex;
+}

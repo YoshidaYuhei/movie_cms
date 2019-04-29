@@ -1,0 +1,24 @@
+{% extends 'binty/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="media">
+  {% if movie.thumbnail %}
+  <td><img class="thumbnail" src="{{ movie.thumbnail.url }}"/></td>
+  {% else %}
+  <td><img class="thumbnail" src="{% static 'binty/img/alter.jpg' %}"></td>
+  {% endif %}
+  <div class="media-body">
+    <h5 class="mt-0">{{ movie.title }}</h5>
+    <p>{{ movie.duration.label }}{{ movie.duration }}</p>
+    <p>{{ movie.country }} </p>
+    <p>{{ movie.release_date }}</p>
+    <p>{{ movie.genre }}</p>
+    <p>{{ movie.director }}</p>
+    <p>{% for casting in movie.cast.all %}{{ casting }},{% endfor %}</p>
+    <p>{{ movie.awards }}</p>
+    <p>{{ movie.pub_date }}</p>
+  </div>
+</div>
+
+{% endblock %}
