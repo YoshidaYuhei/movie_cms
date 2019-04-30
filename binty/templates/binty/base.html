@@ -18,9 +18,12 @@
 <body>
 <nav id="navbar">
   <ul class="navbar-nav mr-auto">
+    {% if user.is_anonymous %}
+    {% else %}
     <li class="nav-item">
       <a class="nav-link" href="{% url 'binty:mypage' user.id %}"><p>{{ user.get_username }}</p></a>
     </li>
+    {% endif %}
     <li class="nav-item">
       <a class="nav-link" href="{% url 'binty:login' %}"><img class="nav_icon"
                                                               src="{% static 'binty/img/icon_account.jpeg' %}"></a>
@@ -34,12 +37,14 @@
                                                                  src="{% static 'binty/img/icon_note.jpeg' %}"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:import' %}"><img class="nav_icon" src="{% static 'binty/img/icon_import.jpg' %}"></a>
+      <a class="nav-link" href="{% url 'binty:import' %}"><img class="nav_icon"
+                                                               src="{% static 'binty/img/icon_import.jpg' %}"></a>
     </li>
     <li class="search-li">
       <form class="form-inline" method="post">
         {% csrf_token %}
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" name="search_word" value="{{ search_word }}">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" name="search_word"
+               value="{{ search_word }}">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </li>

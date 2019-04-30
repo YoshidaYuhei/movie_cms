@@ -112,4 +112,17 @@ body {
   .regi-container .login-form .submit-item p a:hover {
     border-bottom: 1px dotted #8c8c8c; }
 
+.import-form {
+  width: 100%;
+  display: inline-block; }
+  .import-form .import-csv {
+    width: 40%;
+    margin: 30px;
+    display: inline-block;
+    text-decoration: none; }
+  .import-form .import-count {
+    width: 40%;
+    margin: 30px;
+    display: inline-block; }
+
 /*# sourceMappingURL=extend.css.map */

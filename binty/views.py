@@ -12,7 +12,7 @@ from dal import autocomplete
 from django.views import generic
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .models import Content, Cast, Genre, Director
-from .forms import ContentForm, CastForm, TestForm, CSVUploadForm, GenreForm, DirectorForm, DbImportForm, CustomUserForm
+from .forms import ContentForm, CastForm, CSVUploadForm, GenreForm, DirectorForm, DbImportForm, CustomUserForm
 from .webscraping import WebScraping
 
 
@@ -109,7 +109,7 @@ class RegisterView(generic.CreateView):
         context = {
             'form': self.form_class,
         }
-        return HttpResponse(self.template_name.render(context, request))
+        return render(request, self.template_name, context)
 
     def post(self, request):
         url = reverse('binty:register')
@@ -137,6 +137,7 @@ class RegisterView(generic.CreateView):
 def sub_form_view(request):
     if request.method == 'GET' and 'btn' in request.GET:
         template = loader.get_template('binty/subform.html')
+        print(request.GET)
         btn = request.GET.get('btn')
         if btn == 'genre':
             form = GenreForm()
@@ -148,7 +149,7 @@ def sub_form_view(request):
         context = {
             'form': form,
         }
-        return HttpResponse(template.render(context, request))
+        return render(request, template, context)
 
 
 def pagenate_query(request, queryset, count):
