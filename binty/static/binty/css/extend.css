@@ -28,7 +28,7 @@ body {
     display: block; }
     #navbar ul .nav-item {
       display: inline-block;
-      margin-left: 3%; }
+      margin-left: 10%; }
       #navbar ul .nav-item .nav_icon {
         width: 30px;
         height: 30px; }

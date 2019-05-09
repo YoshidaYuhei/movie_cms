@@ -269,6 +269,6 @@ class SignUpView(generic.CreateView):
             login(request, user)
             return redirect(reverse('binty:index'))
 
-        return HttpResponseRedirect(reverse('binty:index'))
+        return render(request, self.template_name, {'form': self.form_class})
 
 
