@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.contrib.auth import get_user_model
 from django.utils import timezone
 
 
@@ -49,11 +50,17 @@ class Content(models.Model):
     director = models.ForeignKey(Director, verbose_name='監督', on_delete=models.PROTECT, null=True)
     cast = models.ManyToManyField(Cast, blank=True, verbose_name='キャスト', null=True)
     awards = models.CharField(verbose_name='アワード', max_length=200, null=True)
-    goods = models.ManyToManyField(User, null=True, verbose_name='イイね！')
+    user = models.ManyToManyField(get_user_model(), null=True)
     pub_date = models.DateTimeField(default=timezone.now())
 
     def __str__(self):
         return self.title
 
+
+class Goods(models.Model):
+    """いいね"""
+    Content = models.ForeignKey(Content, on_delete=models.CASCADE)
+    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    pub_date = models.DateTimeField(default=timezone.now())
 
 

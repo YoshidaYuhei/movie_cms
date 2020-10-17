@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'binty.apps.BintyConfig',
+    'accounts.apps.AccountsConfig',
+    'binty.templatetags'
 ]
 
 MIDDLEWARE = [

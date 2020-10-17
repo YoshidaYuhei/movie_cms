@@ -1,19 +1,42 @@
-$('.search-button').on('click', function(){
+// csrf_tokenの取得に使う
+function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = jQuery.trim(cookies[i]);
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+const csrftoken = getCookie('csrftoken');
 
-    $('.search-box').css('visibility', 'visible');
-    $('.nav-item').css('visibility', 'hidden');
+// Ajaxの実装
+$(function () {
+    $('.goodbtn').click(function () {
+        var usrname = $("#username").text()  // いいねしたユーザid
+        var Cntid = $(this).attr('id') // 対象コンテンツid
+        $.ajax({
+            type: 'POST',
+            url: 'ajax/',
+            data: {'btn_id': Cntid, 'usrname': usrname},
+            // dataType: 'json',
+            // contentType: "application/json",
+            beforeSend: function(xhr, settings){
+                xhr.setRequestHeader("X-CSRFToken", csrftoken)
+            }
+        }).done(function (res) {
+            tagid = "#like_span_" + res.cntid
+            num = "(" + res.count + ")"
+            $(tagid).text(num);
 
-});
-
-
-$('.test-button').on('click', function(){
-    $('.blurry-menu').css('border', '2px solid red').add('p').css('background', 'red');
-});
-
-
-$('.subform').on('click', function(){
-    var btn = this.value;
-    var url = 'subform' + '?btn=' + btn;
-    window.open(url, 'subform', "top=50,left=50,width=500,height=500,scrollbars=1,location=0,menubar=0,toolbar=0,status=1,directories=0,resizable=1");
-    return false;
+        }).fail(function (data) {
+            console.log('error')
+        })
+    })
 });

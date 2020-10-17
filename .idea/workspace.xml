@@ -2,58 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbae833-95e9-4c5d-bad5-f804be4d986f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binty/templates/binty/index_bk1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binty/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binty/templatetags/index_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/binty/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/static/binty/css/extend.css" beforeDir="false" afterPath="$PROJECT_DIR$/binty/static/binty/css/extend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/static/binty/css/extend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/binty/static/binty/css/extend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/static/binty/css/extend.sass" beforeDir="false" afterPath="$PROJECT_DIR$/binty/static/binty/css/extend.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/static/binty/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/binty/static/binty/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/static/binty/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/binty/static/binty/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/templates/binty/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/binty/templates/binty/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/templates/binty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/binty/templates/binty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/templates/binty/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/binty/templates/binty/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/binty/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binty/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/binty/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telephone_range/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/telephone_range/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telephone_range/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/telephone_range/urls.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/telephone_range/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#639#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telephone_range/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telephone_range/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,146 +42,25 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>fixtures</find>
-      <find>print</find>
-      <find>dir</find>
-      <find>AUTH_</find>
-      <find>AUTH</find>
-      <find>AUTHE</find>
-      <find>good</find>
-      <find>genre</find>
-      <find>aut</find>
-      <find>backend</find>
-      <find>authenticat</find>
-      <find>is_v</find>
-      <find>reverse</find>
-      <find>Detail</find>
-      <find>get_username</find>
-      <find>shortc</find>
-      <find>get_</find>
-      <find>account</find>
-      <find>logout</find>
-      <find>login</find>
-      <find>def login</find>
-      <find>valid</find>
-      <find>get_session_auth_hash</find>
-      <find>is_bound</find>
-      <find>is_valid</find>
-      <find>get_user</find>
-      <find>REDIRECT</find>
-      <find>Template</find>
-      <find>setting</find>
-      <find>logging</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>form</replace>
-      <replace>class='test1'</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/templates/registration/logged_out.html" />
-        <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/accounts/templates/accounts/signup.html" />
-        <option value="$PROJECT_DIR$/errstock/urls.py" />
-        <option value="$PROJECT_DIR$/errstock/models.py" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/paginate.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/test.html" />
-        <option value="$PROJECT_DIR$/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/genreForm.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/genreform.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/subform.html" />
-        <option value="$PROJECT_DIR$/binty/static/binty/js/main.js" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/signup.html" />
-        <option value="$PROJECT_DIR$/other/scrayping/scrayping.py" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/login.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/user_create.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/text_media/message.txt" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/text_media/subject.txt" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/account/user_create_complete.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/account/user_create_done.html" />
-        <option value="$PROJECT_DIR$/binty/admin.py" />
-        <option value="$PROJECT_DIR$/binty/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/binty/view_test.py" />
-        <option value="$PROJECT_DIR$/binty/tests/tests.py" />
-        <option value="$PROJECT_DIR$/binty/tests.py" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/account/login.html" />
-        <option value="/usr/local/lib/python3.6/site-packages/django/contrib/auth/__init__.py" />
-        <option value="/usr/local/lib/python3.6/site-packages/django/contrib/auth/urls.py" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/account/mypage.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/account/logout.html" />
-        <option value="$PROJECT_DIR$/binty/static/registration/main.sass" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/forms.html" />
-        <option value="$PROJECT_DIR$/binty/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/binty/static/registration/main.css" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/registration/mypage.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/index.html" />
-        <option value="$PROJECT_DIR$/binty/forms.py" />
-        <option value="$PROJECT_DIR$/binty/webscraping.py" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/registration/login.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/import.html" />
-        <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/base.html" />
-        <option value="$PROJECT_DIR$/binty/models.py" />
-        <option value="$PROJECT_DIR$/binty/static/binty/css/extend.sass" />
-        <option value="$PROJECT_DIR$/binty/templates/binty/registration/signup.html" />
-        <option value="$PROJECT_DIR$/binty/views.py" />
-        <option value="$PROJECT_DIR$/telephone_range/settings.py" />
-        <option value="$PROJECT_DIR$/binty/urls.py" />
-        <option value="$PROJECT_DIR$/slacklog/urls.py" />
-        <option value="$PROJECT_DIR$/telephone_range/urls.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1YcNBRXgbN4BXtyxcrn20WMPh6g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="telephone_range" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telephone_range" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telephone_range" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telephone_range" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telephone_range" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telephone_range" type="462c0819:PsiDirectoryNode" />
-              <item name="telephone_range" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="setti&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/telephone_range/settings.py&#10;signup&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/registration/signup.html&#10;extend&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/static/binty/css/extend.sass&#10;mode&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/models.py&#10;urls&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/urls.py&#10;AUTH_USER_MODEL&#9;null&#9;null&#10;get_user_model&#9;null&#9;null&#10;models&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/models.py&#10;setting&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/telephone_range/settings.py&#10;model&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/models.py&#10;urls.py&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/urls.py&#10;models.p&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/models.py&#10;forms.py&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/forms.py&#10;forms&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/forms.py&#10;settin&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/telephone_range/settings.py&#10;form&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/forms.py&#10;mypage&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/account/mypage.html&#10;user&#9;null&#9;null&#10;User&#9;null&#9;null&#10;base&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/base.html&#10;index&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/index.html&#10;auth&#9;null&#9;null&#10;v&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/views.py&#10;sign&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/account/signup.html&#10;login&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/account/login.html&#10;tests&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/tests.py&#10;test&#9;FILE&#9;file:///usr/local/lib/python3.6/site-packages/pandas/tests/groupby/test_groupby.py&#10;js&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/static/binty/js/main.js&#10;html&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/templates/binty/forms.html&#10;models.&#9;FILE&#9;file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py&#10;admin&#9;null&#9;null&#10;view&#9;FILE&#9;file:///Users/yoshidayuuhei/Desktop/telephone_range/binty/views.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/binty/templates/binty" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -213,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/binty/templates/binty" />
+      <recent name="$PROJECT_DIR$/accounts/templates/registration" />
+      <recent name="$PROJECT_DIR$/accounts/templates/accounts" />
       <recent name="$PROJECT_DIR$/binty/tests" />
       <recent name="$PROJECT_DIR$/binty/templates/binty/account" />
-      <recent name="$PROJECT_DIR$/binty/templates/binty" />
-      <recent name="$PROJECT_DIR$/binty/static/binty/img" />
-      <recent name="$PROJECT_DIR$/accounts/templates/accounts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/binty/templates/binty" />
@@ -227,19 +85,29 @@
       <recent name="$PROJECT_DIR$/binty/tests" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.views (1)">
+  <component name="RunManager" selected="Python.binty">
+    <configuration name="00_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="telephone_range" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LABO/00_sample.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="telephone_range" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,11 +120,15 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="binty" type="PythonConfigurationType" factoryName="Python">
       <module name="telephone_range" />
@@ -270,11 +142,15 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="scrayping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="telephone_range" />
@@ -288,11 +164,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/scrayping/scrayping.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="telephone_range" />
@@ -306,11 +186,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binty/views.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="telephone_range" />
@@ -324,20 +208,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.binty" />
       <item itemvalue="Python.views" />
       <item itemvalue="Python.scrayping" />
       <item itemvalue="Python.views (1)" />
+      <item itemvalue="Python.00_sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.00_sample" />
         <item itemvalue="Python.views (1)" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.scrayping" />
@@ -354,59 +244,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551353006643</updated>
+      <workItem from="1583237788045" duration="25000" />
+      <workItem from="1583370755019" duration="4939000" />
+      <workItem from="1583635946784" duration="48000" />
+      <workItem from="1602637221801" duration="8984000" />
+      <workItem from="1602674729460" duration="52587000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16067654" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.309375" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2846154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13178295" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.309375" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state width="610" height="466" key="DebuggerActiveHint" timestamp="1602925793982">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="610" height="466" key="DebuggerActiveHint/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602925793982" />
+    <state x="-2243" y="336" key="EditFileWatcherDialog" timestamp="1602654936253">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state x="-2243" y="336" key="EditFileWatcherDialog/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602654936253" />
+    <state width="1415" height="270" key="GridCell.Tab.0.bottom" timestamp="1602931992520">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1415" height="270" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602931992520" />
+    <state width="1415" height="270" key="GridCell.Tab.0.center" timestamp="1602931992519">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1415" height="270" key="GridCell.Tab.0.center/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602931992519" />
+    <state width="1415" height="270" key="GridCell.Tab.0.left" timestamp="1602931992518">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1415" height="270" key="GridCell.Tab.0.left/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602931992518" />
+    <state width="1415" height="270" key="GridCell.Tab.0.right" timestamp="1602931992519">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1415" height="270" key="GridCell.Tab.0.right/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602931992519" />
+    <state x="-2319" y="190" key="SettingsEditor" timestamp="1602675079759">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state x="-2319" y="190" key="SettingsEditor/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1602675079759" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/binty/views.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../LABO/00_sample.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/binty/static/binty/js/main.js</url>
+          <line>33</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -414,340 +312,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/apps/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="164" column="45" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/inspect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="1328" column="35" lean-forward="true" selection-start-line="1328" selection-start-column="35" selection-end-line="1328" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/account/signup.html" />
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2341">
-          <caret line="293" column="8" selection-start-line="293" selection-start-column="8" selection-end-line="293" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/backends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/account/login.html" />
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1199943127/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="5243" column="8" selection-start-line="5243" selection-start-column="8" selection-end-line="5243" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="152" column="33" lean-forward="true" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/views/generic/edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/forms/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="85" column="71" selection-start-line="85" selection-start-column="71" selection-end-line="85" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/webscraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16860">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/subform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html" />
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/template/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/castlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/core/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.6.5/Frameworks/Python.framework/Versions/3.6/lib/python3.6/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="111" column="30" lean-forward="true" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1199943127/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2759">
-          <caret line="263" column="6" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="193" column="23" lean-forward="true" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="355" column="10" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4635">
-          <caret line="325" column="32" selection-start-line="325" selection-start-column="32" selection-end-line="325" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="133" column="44" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/views/generic/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/views/generic/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/views/generic/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="160" column="52" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/static/binty/css/extend.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/registration/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/registration/mypage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="77" lean-forward="true" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/templates/binty/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binty/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3671">
-          <caret line="270" lean-forward="true" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telephone_range/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slacklog/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slacklog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slacklog/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telephone_range/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/telephone_range/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/telephone_range$00_sample.coverage" NAME="00_sample Coverage Results" MODIFIED="1602922442770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/telephone_range$binty.coverage" NAME="binty Coverage Results" MODIFIED="1602930654893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>

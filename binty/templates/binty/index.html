@@ -1,55 +1,34 @@
 {% extends 'binty/base.html' %}
 {% load static %}
+{% load index_tags %}
 
 {% block content %}
 
-<div class="model_list">
-  <table class="table table-bordered">
-    <thead class="thead-dark">
-    <tr>
-      <th>id</th>
-      <th>Image</th>
-      <th>Title</th>
-      <th>Cast</th>
-      <th>Like</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for content in page_obj %}
-    <tr>
-      <th scope="row"> {{ content.id }}</th>
-      {% if content.thumbnail %}
-      <td><a href="{% url 'binty:detail' content.id %}"/><img class="thumbnail" src="{{ content.thumbnail.url }}"
-                                                              style="max_height:10px"/></td>
-      {% else %}
-      <td><a href="{% url 'binty:detail' content.id %}"/><img class="thumbnail"
-                                                              src="{% static 'binty/img/noimage.png' %}"></td>
-      {% endif %}
-      <td id="test">{{ content.title }}</td>
-      <td>{% for cast in content.cast.all|slice:":4" %}<a href="{% url 'binty:castlist' cast.id %}">{{ cast }}<br></a>{% endfor %}
-      </td>
-      <form method="post">
-        {% csrf_token %}
-        <td>
-          <button type="submit" name="good" class="btn btn-success" value="{{ content.id }}">
-            イイね
-          </button>
-        </td>
-      </form>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-  <form name="genre_select" method="post" class="genre_select">
-    {% csrf_token %}
-    <div id="genre_list">
-      {% for genre in genre_list %}
-      <button class="genre_tag" value="{{ genre.id }}" name="genre_select">{{ genre.name }}</button>
+<div class="card-columns">
+  {% for content in page_obj %}
+  <div class="card">
+    {% if content.thumbnail %}
+    <a href="{% url 'binty:detail' content.id %}">
+      <img class="card-img-top" src="{{ content.thumbnail.url }}"/>
+    </a>
+    {% else %}
+    <a href="{% url 'binty:detail' content.id %}">
+      <img class="card-img-top" src="{% static 'binty/img/noimage.png' %}"/>
+    </a>
+    {% endif %}
+    <div class="card-body">
+      <h4 class="card-title">{{content.title}}</h4>
+      {% for cast in content.cast.all|slice:":4" %}
+      <a href="{% url 'binty:castlist' cast.id %}">{{ cast }}<br></a>
       {% endfor %}
     </div>
-  </form>
+    <div id="like" class="card-body">
+      <button id="like_btn_{{content.id}}" class="btn btn-outline-success mx-3 goodbtn" type="button">イイね！</button>
+      <span id="like_span_{{content.id}}" class="likecount">({{ content.user.all|count }})</span>
+    </div>
+  </div>
+  {% endfor %}
 </div>
-
 {% include 'binty/paginate.html' %}
 
 {% endblock %}

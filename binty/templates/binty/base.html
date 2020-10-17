@@ -10,57 +10,51 @@
 
 
   <!--my css-->
-  <link href="{% static 'binty/css/main.css' %}" rel="stylesheet">
   <link href="{% static 'binty/css/extend.css' %}" rel="stylesheet">
 
   <title>binty</title>
 </head>
 <body>
-<nav id="navbar">
-  <ul class="navbar-nav mr-auto">
-    {% if user.is_anonymous %}
-    {% else %}
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:mypage' user.id %}"><p>{{ user.get_username }}</p></a>
-    </li>
-    {% endif %}
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:login' %}"><img class="nav_icon"
-                                                              src="{% static 'binty/img/icon_account.jpeg' %}"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:index' %}"><img class="nav_icon"
-                                                              src="{% static 'binty/img/icon_home2.png' %}"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:register' %}"><img class="nav_icon"
-                                                                 src="{% static 'binty/img/icon_note.jpeg' %}"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="{% url 'binty:import' %}"><img class="nav_icon"
-                                                               src="{% static 'binty/img/icon_import.jpg' %}"></a>
-    </li>
-    <li class="search-li">
+<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="d-flex order-0">
+    <a class="navbar-brand mr-1" href="{% url 'binty:index' %}">BINTY</a>
+  </div>
+  <div class="navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      {% if user.is_anonymous %}
+      {% else %}
+      <li class="nav-item mx-4">
+        <a class="nav-link" href="{% url 'binty:index' %}"><p id="username">{{ user.get_username }}</p></a>
+      </li>
+      {% endif %}
+      <li class="nav-item mx-4 active">
+        <a class="nav-link" href="{% url 'binty:login' %}">Account</a>
+      </li>
+      <li class="nav-item mx-4 active">
+        <a class="nav-link" href="{% url 'binty:register' %}">Register</a>
+      </li>
+      <li class="nav-item mx-4 active">
+        <a class="nav-link" href="{% url 'binty:import' %}">Import</a>
+      </li>
+    </ul>
+    <div class="search-li col-4">
       <form class="form-inline" method="post">
         {% csrf_token %}
         <input class="form-control mr-sm-2" type="text" placeholder="Search" name="search_word"
                value="{{ search_word }}">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
-    </li>
-  </ul>
+    </div>
+  </div>
 </nav>
-<div id="container">
+<div class="container">
   {% block content %}
   {% endblock %}
 </div>
+<meta name="_csrf" content="${_csrf.token}"/>
+<meta name="_csrf_header" content="${_csrf.headerName}"/>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>

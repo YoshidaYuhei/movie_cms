@@ -1,22 +1,38 @@
-import csv
 import logging
 from io import TextIOWrapper
 from django.conf import settings
 from django.contrib.auth import get_user_model, authenticate, login
 from django.contrib.auth import views as auth_view
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import JsonResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.template import loader
 from django.urls import reverse, reverse_lazy
 from dal import autocomplete
 from django.views import generic
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from .models import Content, Cast, Genre, Director
+from .models import Content, Cast, Genre, Director, Goods
 from .forms import ContentForm, CastForm, CSVUploadForm, GenreForm, DirectorForm, DbImportForm, CustomUserForm
 from .webscraping import WebScraping
 
 
 User = get_user_model()
+
+
+def samplefunc(request):
+    return render(request, 'test.html', context={'heading_1':"test"})
+
+
+def ajax(request):
+    query = request.POST
+    contentid = int(query.get('btn_id').replace('like_btn_', ''))
+    content = Content.objects.get(id=contentid)
+
+    usr = User.objects.get(username=query.get('usrname'))
+    content.user.add(usr)
+    content.save()
+    count = len(content.user.all())
+    res = {'cntid': contentid, 'count': count}
+    return JsonResponse(res)
 
 
 class IndexView(generic.ListView):
@@ -33,6 +49,7 @@ class IndexView(generic.ListView):
         return Content.objects.order_by('-id')
 
     def get(self, request):
+        print(request.session)
         lists = self.get_queryset()
         page_obj = pagenate_query(request, lists, settings.PAGE_PER_ITEM)
         context = {
